@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Ranchers', cursive;
+  background-color: #33326d4f;
+  position: relative;
+}
+.container {
+  width: 1200px;
+  height: 220px;
+  background-color: teal;
+  margin: 0 auto;
+  box-shadow: 0 0 30px #000;
+  border-radius: 35px;
+}
+.hidden {
+  display: none !important;
+}
+
+.heading {
+  width: 770px;
+  text-align: center;
+  font-size: 55px;
+  margin-top: 18%;
+  margin-left: 19%;
+}
+
+.heading2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 30px;
+}
+.play-btn {
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: #7e2121;
+  color: #d2c5c5;
+  transition: 0.2s ease-in;
+}
+.rules {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.play-btn:hover {
+  transform: scale(1.12, 1.12);
+  background-color: #a42a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 25%;
+  left: 46%;
+  font-size: 44px;
+  color: white;
+}
+.game-info {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.3s ease-in;
+}
+.player {
+  margin-right: 15px;
+}
+.name {
+  font-size: 25px;
+  margin-right: 7px;
+}
+.input {
+  width: 50px;
+  font-size: 25px;
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+}
+.input::placeholder {
+  color: black;
+  font-weight: bold;
+}
+
+.resultText {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.game-controls {
+  display: flex;
+  justify-content: center;
+}
+.game-controls button + button {
+  margin-left: 20px;
+}
+
+.button {
+  width: 100px;
+  height: 90px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #7e2121;
+  color: #d2c5c5;
+  transition: 0.2s ease-in;
+  border-radius: 50px;
+  border: none;
+}
+.button:hover {
+  transform: scale(1.12, 1.12);
+  background-color: #a42a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.endGame {
+  font-size: 20px;
+  display: block;
+  margin: 100px auto 0;
+  cursor: pointer;
+  width: 120px;
+  height: 50px;
+  transition: 0.2s ease-in;
+  text-align: center;
+  background-color: #551a8b;
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.endGame:hover {
+  transform: scale(1.12, 1.12);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: #ab38a7ad;
+}
+.copyright {
+  position: absolute;
+  bottom: -380px;
+  right: 50px;
+}

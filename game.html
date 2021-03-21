@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock | Paper | Scissors</title>
+    <link rel="stylesheet" href="./game.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Rock | Paper | Scissors | Lizard | Spock</h1>
+        <button class="play-btn">Play</button>
+        <a href="https://www.youtube.com/watch?v=LgcZ9LMO7iw" target="blank" class="rules">Rules of the game</a>
+        <span class="copyright">Project coded by: <a href="https://github.com/NikitaPolyakov10" target="blank">NP</a></span>
+        <div class="game-info hidden">
+            <div class="player">
+                <span class="name player-name">Player Score:</span>
+                <input class="input player-score" placeholder="0" disabled>
+            </div>
+            <div class="computer">
+                <span class="name computer-name">Computer Score:</span>
+                <input class="input computer-score" placeholder="0" disabled>
+            </div>
+        </div>
+        <div class="timer hidden"></div>
+        <div class="resultText hidden">Who will win?</div>
+        <h2 class="heading2 hidden">Choose weapon</h2>
+        <div class="game-controls hidden">
+            <button class="button rock-btn">Rock</button>
+            <button class="button paper-btn">Paper</button>
+            <button class="button sciss-btn">Scissors</button>
+            <button class="button lizard-btn">Lizard</button>
+            <button class="button spock-btn">Spock</button>    
+        </div>
+        <button class="endGame hidden">End game</button>
+    </div>
+
+<script src="./game.js"></script>
+</body>
+</html>
